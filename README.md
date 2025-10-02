@@ -12,6 +12,7 @@ pip install uv
 
 # Create a new virtual environment
 python -m venv .venv
+uv venv --python 3.11 
 
 # Activate the virtual environment
 source .venv/bin/activate  # On macOS/Linux
